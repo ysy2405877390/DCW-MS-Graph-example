@@ -1,6 +1,6 @@
 {
-  "client_id" : "YOUR_APP_ID_HERE",
-  "redirect_uri" : "msauth://com.example.graphtutorial/callback",
+  "client_id" : "3ce05fa3-68e3-40e9-9352-b591f143fe28",
+  "redirect_uri" : "msauth://com.dcwsoft.msgraphexample/callback",
   "broker_redirect_uri_registered": false,
   "account_mode": "SINGLE",
   "authorities" : [
