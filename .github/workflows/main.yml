@@ -36,8 +36,8 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       - name: Setup Java environment
-        uses: action/setup-java@v1
-        with: java-version: 1.8
+        uses: action/setup-java@v2
+        with: java-version: '11'
 
       - name: Build debug APK
         run: bash ./demo/GraphTutorial/gradlew assembleDebug --stacktrace
