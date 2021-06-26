@@ -38,6 +38,7 @@ jobs:
       - name: Setup Java environment
         uses: action/setup-java@v2
         with: java-version: '11'
+              distribution: 'adopt'
 
       - name: Build debug APK
         run: bash ./demo/GraphTutorial/gradlew assembleDebug --stacktrace
