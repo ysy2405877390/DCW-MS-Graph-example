@@ -37,7 +37,8 @@ jobs:
           echo test, and deploy your project.
       - name: Setup Java environment
         uses: action/setup-java@v2
-        with: java-version: '11'
+        with:
+              java-version: '11'
               distribution: 'adopt'
 
       - name: Build debug APK
